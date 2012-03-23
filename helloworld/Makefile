@@ -1,3 +1,3 @@
 test: 
-	@NODE_ENV=test mocha ./test/*.js
+ @NODE_ENV=test mocha ./test/*.js
 .PHONY: test
