@@ -7,7 +7,7 @@ describe('Plus', function() {
 	it('.plus', function () {
 		var number = plus.plus(1, 2);
 		number.should.eql(3);
-		
+	
 		try {
 			plus.plus();
 		}
